@@ -1,0 +1,75 @@
+.homepageBody-container {
+    height: 500px;
+    display: flex;
+    padding: 30px;
+    /* background-color: rgba(77,65,55); */
+    background-color: rgba(239, 236, 234, 255);
+    /* border: 1px solid black; */
+}
+
+.patekBest {
+   height: 95%;
+}
+
+
+.leftHomepageBody, .rightHomepageBody {
+    width: 25%;
+    height: 100%;
+    margin-left: 80px;
+}
+
+.middleHomepageBody {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.watchLimit{
+    height: 20%;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+
+.watchName {
+    height: 30%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.limitedTo {
+    background-color: rgba(42,34,28,255);
+    color:white;
+    font-size: .7rem;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.refNum  {
+    font-size: .7rem;
+}
+
+.brandName {
+    font-size: 1.2rem;
+}
+
+.watchPrice{
+    font-size: 0.7rem;
+    margin-top: 30px;
+}
+
+
+.buyButton {
+    font-size: 0.7rem;
+    background-color: rgba(209,149,111,255);
+    color: black;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 2em;
+    font-weight: bold;
+}

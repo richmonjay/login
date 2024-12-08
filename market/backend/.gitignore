@@ -11,3 +11,33 @@ yarn-error.log*
 
 # Miscellaneous
 .DS_Store
+
+# Jekyll output directory
+_site
+
+# Jekyll metadata file
+.jekyll-metadata
+
+# Bundler config
+.bundle
+
+# Gemfile lock
+Gemfile.lock
+
+# Byebug command history
+.byebug_history
+
+# Sass cache
+.sass-cache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# System files
+Thumbs.db

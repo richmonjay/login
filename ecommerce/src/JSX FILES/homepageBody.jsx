@@ -19,7 +19,11 @@ function HomepageBody() {
             <div className="middleHomepageBody">
                 <img src={PatekBest} alt="Patek Best Seller" className='patekBest' />
             </div>
-            <div className="rightHomepageBody"></div>
+            <div className="rightHomepageBody">
+                <div className="watchStatus">
+                    <p className='status'>AVAILABLE</p>
+                </div>
+            </div>
         </div>
     )
 }
